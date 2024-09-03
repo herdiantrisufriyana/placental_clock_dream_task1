@@ -47,3 +47,28 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Ignore Rstudio project files
+*.Rproj
+
+# Ignore everything in archive
+archive/*
+
+# Ignore everything in renv
+renv/*
+
+# But don't ignore these files in renv
+!renv/activate.R
+!renv/settings.json
+.Rproj.user
+
+# Ignore OS system files
+.DS_Store
+
+# Ignore everything in virtual env
+placental_clock_dream_task1_env/*
+__pycache__/*
+
+# Ignore everything in data and and inst/extdata
+data/*
+inst/extdata/*
