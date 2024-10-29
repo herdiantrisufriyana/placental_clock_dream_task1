@@ -177,6 +177,7 @@ pcd1_sub8/*
 !inst/extdata/subfertility_pred_coefficients.csv
 !data/chorioamnionitis_pred_set_rownames.rds
 !inst/extdata/chorioamnionitis_pred_prob.csv
+!inst/extdata/chorioamnionitis_pred_coefficients.csv
 !data/ga_rtc_est_set_rownames.rds
 !inst/extdata/ga_rtc_est_predictions.csv
 !data/ga_rtc_rf_est_set_rownames.rds
