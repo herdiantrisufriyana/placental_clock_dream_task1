@@ -1,0 +1,9 @@
+model,sub,code,rank
+"Res-CR-GA*",1,"testthewaters",7
+"Resfull-GA*",2,"isitthedarkhorse",6
+"Res-GA*",3,"clearcut",8
+"Res-CPG-PR-GA",4,"stepback",3
+"Res-CPG-GA",5,"stepbackfurther",5
+"Res-CPG-rev-GA",6,"stepbackabit",4
+"Res-Conds-GA§",7,"slidingdoors",2
+"Res-Comb-GA",8,"pointofdivergence",1

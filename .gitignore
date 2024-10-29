@@ -327,6 +327,8 @@ pcd1_sub8/*
 !data/ga_res_cpg_comb_null_est_set_rownames.rds
 !inst/extdata/ga_res_cpg_comb_null_est_predictions.csv
 !inst/extdata/ga_res_comb_est_coefficients.csv
+!inst/extdata/submission_info.csv
+!inst/extdata/leaderboard_performance.csv
 !data/Sample_IDs.rds
 !data/probe_info*
 !pcd1_sub1/Dockerfile
