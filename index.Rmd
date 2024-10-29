@@ -7725,6 +7725,10 @@ df_train0 |>
 ## Submission 1: GA res-comp-risk random forest (testthewaters)
 
 ```{r GA rcrRF prediction - Create model dir, eval=FALSE, include=FALSE}
+if (!dir.exists("pcd1_sub1/data")) {
+  dir.create("pcd1_sub1/data", recursive = TRUE)
+}
+
 if (!dir.exists("pcd1_sub1/inst/extdata")) {
   dir.create("pcd1_sub1/inst/extdata", recursive = TRUE)
 }
@@ -7880,6 +7884,10 @@ cd ..
 ## Submission 2: GA res-full random forest (isitthedarkhorse)
 
 ```{r GA rfullRF prediction - Create model dir, eval=FALSE, include=FALSE}
+if (!dir.exists("pcd1_sub2/data")) {
+  dir.create("pcd1_sub2/data", recursive = TRUE)
+}
+
 if (!dir.exists("pcd1_sub2/inst/extdata")) {
   dir.create("pcd1_sub2/inst/extdata", recursive = TRUE)
 }
@@ -8035,6 +8043,10 @@ cd ..
 ## Submission 3: GA residual random forest (clearcut)
 
 ```{r GA res RF prediction - Create model dir, eval=FALSE, include=FALSE}
+if (!dir.exists("pcd1_sub3/data")) {
+  dir.create("pcd1_sub3/data", recursive = TRUE)
+}
+
 if (!dir.exists("pcd1_sub3/inst/extdata")) {
   dir.create("pcd1_sub3/inst/extdata", recursive = TRUE)
 }
@@ -8190,6 +8202,10 @@ cd ..
 ## Submission 4: GA res-cpg-pr elastic net (stepback)
 
 ```{r RcpgPR-GA prediction - Create model dir, eval=FALSE, include=FALSE}
+if (!dir.exists("pcd1_sub4/data")) {
+  dir.create("pcd1_sub4/data", recursive = TRUE)
+}
+
 if (!dir.exists("pcd1_sub4/inst/extdata")) {
   dir.create("pcd1_sub4/inst/extdata", recursive = TRUE)
 }
@@ -8311,6 +8327,10 @@ cd ..
 ## Submission 5: GA res-cpg elastic net (stepbackfurther)
 
 ```{r Rcpg-GA prediction - Create model dir, eval=FALSE, include=FALSE}
+if (!dir.exists("pcd1_sub5/data")) {
+  dir.create("pcd1_sub5/data", recursive = TRUE)
+}
+
 if (!dir.exists("pcd1_sub5/inst/extdata")) {
   dir.create("pcd1_sub5/inst/extdata", recursive = TRUE)
 }
@@ -8447,6 +8467,10 @@ cd ..
 ## Submission 6: GA res-cpg-rev elastic net (stepbackabit)
 
 ```{r Rcpgrev-GA prediction - Create model dir, eval=FALSE, include=FALSE}
+if (!dir.exists("pcd1_sub6/data")) {
+  dir.create("pcd1_sub6/data", recursive = TRUE)
+}
+
 if (!dir.exists("pcd1_sub6/inst/extdata")) {
   dir.create("pcd1_sub6/inst/extdata", recursive = TRUE)
 }
@@ -8583,6 +8607,10 @@ cd ..
 ## Submission 7: GA res-conds-pred elastic net (slidingdoors)
 
 ```{r ResCondsPred-GA prediction - Create model dir, eval=FALSE, include=FALSE}
+if (!dir.exists("pcd1_sub7/data")) {
+  dir.create("pcd1_sub7/data", recursive = TRUE)
+}
+
 if (!dir.exists("pcd1_sub7/inst/extdata")) {
   dir.create("pcd1_sub7/inst/extdata", recursive = TRUE)
 }
@@ -8780,6 +8808,10 @@ cd ..
 ## Submission 8: GA res-comb-pred elastic net (pointofdivergence/imperfectmirror)
 
 ```{r ResComb-GA prediction - Create model dir, eval=FALSE, include=FALSE}
+if (!dir.exists("pcd1_sub8/data")) {
+  dir.create("pcd1_sub8/data", recursive = TRUE)
+}
+
 if (!dir.exists("pcd1_sub8/inst/extdata")) {
   dir.create("pcd1_sub8/inst/extdata", recursive = TRUE)
 }
