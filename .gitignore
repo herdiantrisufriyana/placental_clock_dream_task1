@@ -316,6 +316,8 @@ pcd1_sub8/*
 !inst/extdata/ga_res_cpg_comb_lga_est_predictions.csv
 !data/ga_res_cpg_comb_subfertility_est_set_rownames.rds
 !inst/extdata/ga_res_cpg_comb_subfertility_est_predictions.csv
+!data/ga_res_cpg_comb_chorioamnionitis_est_set_rownames.rds
+!inst/extdata/ga_res_cpg_comb_chorioamnionitis_est_predictions.csv
 !data/ga_res_cpg_comb_true_est_set_rownames.rds
 !inst/extdata/ga_res_cpg_comb_true_est_predictions.csv
 !data/ga_res_cpg_comb_imp_est_set_rownames.rds
