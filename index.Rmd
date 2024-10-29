@@ -838,7 +838,7 @@ data.frame(probe_id = rownames(fgr_dmp[[1]])) |>
   write_csv("inst/extdata/fgr_dmp.csv")
 ```
 
-```{r FGR prediction - Load pre-written DMPs, include=FALSE}
+```{r FGR imputation - Load pre-written DMPs, include=FALSE}
 fgr_dmp <- list()
 
 fgr_dmp$Yes_to_No <-
