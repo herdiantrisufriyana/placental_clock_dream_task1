@@ -121,6 +121,10 @@ pcd1_sub8/*
 !inst/extdata/slga_dmp.csv
 !data/slga_imp_set_rownames.rds
 !inst/extdata/slga_imp_predictions.csv
+!inst/extdata/ivf_dmp.csv
+!data/ivf_imp_set_rownames.rds
+!inst/extdata/ivf_imp_predictions.csv
+!inst/extdata/subfertility_dmp.csv
 !data/subfertility_imp_set_rownames.rds
 !inst/extdata/subfertility_imp_predictions.csv
 !inst/extdata/chorioamnionitis_dmp.csv
