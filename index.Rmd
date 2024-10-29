@@ -5494,7 +5494,7 @@ ga_res_cpg_t_dmp <-
 saveRDS(ga_res_cpg_t_dmp, "data/ga_res_cpg_t_dmp.rds")
 ```
 
-```{r GA res-cpg prediction - Load pre-identified DMPs, include=FALSE}
+```{r GA res-cpg pred - Load pre-identified DMPs, eval=FALSE, include=FALSE}
 ga_res_cpg_pr_dmp <- readRDS("data/ga_res_cpg_pr_dmp.rds")
 ga_res_cpg_thr_dmp <- readRDS("data/ga_res_cpg_thr_dmp.rds")
 ga_res_cpg_t_dmp <- readRDS("data/ga_res_cpg_t_dmp.rds")
