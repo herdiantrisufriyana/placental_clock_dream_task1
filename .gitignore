@@ -268,6 +268,10 @@ pcd1_sub8/*
 !data/ga_res_conds_subfertility_est_set_rownames.rds
 !inst/extdata/ga_res_conds_subfertility_est_predictions.csv
 !inst/extdata/ga_res_conds_subfertility_est_coefficients.csv
+!inst/extdata/ga_res_conds_chorioamnionitis_dmp.csv
+!data/ga_res_conds_chorioamnionitis_est_set_rownames.rds
+!inst/extdata/ga_res_conds_chorioamnionitis_est_predictions.csv
+!inst/extdata/ga_res_conds_chorioamnionitis_est_coefficients.csv
 !data/ga_res_conds_true_est_set_rownames.rds
 !inst/extdata/ga_res_conds_true_est_predictions.csv
 !data/ga_res_conds_imp_est_set_rownames.rds
