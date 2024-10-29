@@ -54,9 +54,9 @@ jupyter-lab --ip=0.0.0.0 --no-browser --allow-root
 
 Click a link in the results to open jupyter lab in a browser. Change port number in the link, accordingly, if it is already used by other applications.
 
-## Source codes of data analysis
+## Source code preview
 
-All the source codes are included in [**index.Rmd**](https://github.com/herdiantrisufriyana/placental_clock_dream_task1/blob/master/index.Rmd) and [**index.ipynb**](https://github.com/herdiantrisufriyana/placental_clock_dream_task1/blob/master/index.ipynb) for R- and Python-related codes, respectively. The HTML preview of index.Rmd is shown [**here**](https://herdiantrisufriyana.github.io/placental_clock_dream_task1/index.html).
+The HTML preview is shown [**here**](https://herdiantrisufriyana.github.io/placental_clock_dream_task1/index.html).
 
 
 
