@@ -2617,7 +2617,7 @@ ano_ori_ga_conds_plot[var_ga_ms]
 
 Normal-GA model was trained using samples without 12 of 13 available conditions. They were significantly correlated to GA: (1) fetal growth restriction (FGR); (2) PE; (3) PE onset (early/late/not applicable); (4) hemolysis, elevated liver enzyme, and low platelet (HELLP) syndrome; (5) anencephaly; (6) spina bifida; (7) diandric triploid; (8) miscarriage; (9) preterm delivery; (10) gestational diabetes mellitus (GDM); (11) large-for-gestational-age (LGA) infant; (12) subfertility; and (13) chorioamnionitis. We excluded preterm delivery because it was related to the outcome, i.e., GA, simply by definition.
 
-```{r GA prediction - Identify datasets, include=FALSE}
+```{r GA prediction - Identify datasets, eval=FALSE, include=FALSE}
 ga_data0 <-
   ano_ori_ga_conds |>
   filter(
