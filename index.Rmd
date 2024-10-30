@@ -827,10 +827,6 @@ fgr$imp_set |>
   saveRDS("data/fgr_imp_set_rownames.rds")
 ```
 
-```{r FGR imputation - Load pre-identified DMPs, eval=FALSE, include=FALSE}
-fgr_dmp <- readRDS("data/fgr_dmp.rds")
-```
-
 ```{r FGR imputation - Load and write pre-id DMPs, eval=FALSE, include=FALSE}
 fgr_dmp <- readRDS("data/fgr_dmp.rds")
 
